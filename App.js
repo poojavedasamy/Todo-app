@@ -16,7 +16,7 @@ export default function App() {
     if (response?.type === 'success') {
       const { authentication } = response;
       console.log('✅ Login Success! Access Token:', authentication.accessToken);
-      // You can now fetch user info using token, or link with Firebase Auth
+  
     }
   }, [response]);
 
