@@ -53,7 +53,7 @@ export default function HomeScreen() {
       justifyContent: 'center',
       alignItems: 'center',
       padding: 20,
-      paddingBottom: 40, // Increased padding at the bottom
+      paddingBottom: 40, 
       backgroundColor: '#ffffff',
     }}>
       {!userInfo ? (
@@ -78,7 +78,7 @@ export default function HomeScreen() {
             alignItems: 'center',
             width: '100%',
             marginBottom: 20,
-            justifyContent: 'center' // Center the whole row
+            justifyContent: 'center' 
           }}>
             <Image
               source={{ uri: userInfo.picture }}
@@ -103,7 +103,7 @@ export default function HomeScreen() {
               style={{
                 borderWidth: 1,
                 padding: 8,
-                flex: 1, // changed from 0.7 to 1
+                flex: 1, 
                 borderRadius: 5,
                 borderColor: '#ccc',
                 marginRight: 10,
@@ -141,7 +141,7 @@ export default function HomeScreen() {
                   <Text
                     style={{
                       textDecorationLine: todo.done ? 'line-through' : 'none',
-                      color: todo.done ? '#888' : '#000', // better done/undone visibility
+                      color: todo.done ? '#888' : '#000', 
                       flex: 1,
                     }}
                   >
@@ -150,7 +150,7 @@ export default function HomeScreen() {
                   <Button
                     title={todo.done ? "Undo" : "Done"}
                     onPress={() => toggleTodo(index)}
-                    color={todo.done ? undefined : 'green'} // green for "Done", default for "Undo"
+                    color={todo.done ? undefined : 'green'} 
                   />
                   <View style={{ width: 10 }} />
                   <View style={{ paddingLeft: 10 }}>
