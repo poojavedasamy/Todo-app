@@ -16,7 +16,7 @@ export default function LoginScreen({ navigation }) {
       const credential = GoogleAuthProvider.credential(id_token);
       signInWithCredential(auth, credential)
         .then(() => {
-          navigation.replace('Home'); // ⏩ Navigate on login success
+          navigation.replace('Home'); 
         })
         .catch((error) => {
           Alert.alert("Login failed", error.message);
