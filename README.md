@@ -17,4 +17,12 @@ This project was built as part of a hackathon hosted by [Katomaran](https://www.
 ```bash
 git clone https://github.com/poojavedasamy/Todo-app.git
 cd Todo-app
+### 2. Install dependencies
+
+```bash
+npm install
+yaml
+Copy
+Edit
+
 
