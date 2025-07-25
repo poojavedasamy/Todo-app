@@ -21,8 +21,6 @@ cd Todo-app
 
 ```bash
 npm install
-yaml
-Copy
-Edit
+
 
 
