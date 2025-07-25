@@ -18,3 +18,8 @@ This project was built as part of a hackathon hosted by [Katomaran](https://www.
 git clone https://github.com/poojavedasamy/Todo-app.git
 cd Todo-app
 
+ ## Install dependencies
+bash
+Copy
+Edit
+npm install
